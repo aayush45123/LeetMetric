@@ -2,7 +2,7 @@
 
 **LeetMetric** is a minimal, responsive dashboard that displays a user's LeetCode statistics — including solved problems by difficulty and total submissions — using **pure HTML & CSS** for progress visuals and **JavaScript for fetching data**.
 
-![LeetMetric Screenshot](./assets/Screenshot 2025-06-05 222722.png)
+![LeetMetric Screenshot](./assets/Screenshot%202025-06-05%20222722.png)
 
 ## 🧩 Features
 
