@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>LeetMetric</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="card">
+        <h2>LeetMetric</h2>
+        <input type="text" id="username" placeholder="Enter your username below:" />
+        <button id="search">Search</button>
+
+        <div class="result">
+            <div class="circle-container">
+                <div class="circle easy-circle">
+                    <div class="circle-label"><span class="easy">0</span><br>Easy</div>
+                </div>
+            </div>
+
+            <div class="circle-container">
+                <div class="circle medium-circle">
+                    <div class="circle-label"><span class="medium">0</span><br>Medium</div>
+                </div>
+            </div>
+
+            <div class="circle-container">
+                <div class="circle hard-circle">
+                    <div class="circle-label"><span class="hard">0</span><br>Hard</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ranking-card">
+            <h3>Ranking</h3>
+            <div class="ranking-info">
+                <div class="rank-item">
+                    <span class="rank-label">Overall Ranking:</span>
+                    <span class="rank-value" id="overall-rank">--</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
